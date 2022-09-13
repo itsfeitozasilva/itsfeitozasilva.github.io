@@ -1,0 +1,24 @@
+/**
+ * assets/css/common.css
+ * CSS file for all pages
+ *
+ * Copyright (C) 2022 R. Valentim Feitoza da Silva. All rights reserved.
+ */
+
+@font-face {
+	font-family: 'Inter var';
+	src: url(/assets/fonts/Inter/Inter-VariableFont_slnt,wght.ttf);
+}
+
+body {
+	font-family: 'Inter var', sans-serif;
+	font-size: 12pt;
+	text-align: center;
+}
+
+@media only screen and (min-width: 640px) {
+	.content {
+		margin-left: 20%;
+		margin-right: 20%;
+	}
+}
