@@ -21,5 +21,5 @@ window.onload = () => {
 		languageToUse = browserLanguage;
 
 	// Redirect to appropriate page
-	window.location.replace(`/index.${languageToUse}.html`);
+	window.location.replace(`/${languageToUse}${window.location.pathname}`);
 };
